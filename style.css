@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(to bottom right, rgb(231, 168, 168), rgb(194, 181, 255));
+}
+::selection {
+    background: #d07fff;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+}
+li a {
+    display: block;
+    color: rgb(66, 43, 43);
+    padding: 8px 25px;
+    text-decoration: none;
+} :hover {
+    background-color: #eed4d4;
+    border-radius: 20px;
+}
+li span {
+    display: block;
+    color: rgb(66, 43, 43);
+    padding: 10px 10px;
+    text-decoration: none;
+}
